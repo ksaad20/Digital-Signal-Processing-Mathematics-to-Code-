@@ -1,0 +1,164 @@
+# Digital Signal Processing: Mathematics to Intelligent Signal Processing
+[![LaTeX](https://img.shields.io/badge/LaTeX-Book-green)]()
+[![Elsevier Template](https://img.shields.io/badge/Elsevier-Book-blue)]()
+[![License](https://img.shields.io/badge/License-TBD-lightgrey)]()
+
+## Overview
+
+This repository contains the complete source code for the book **Digital Signal Processing: Mathematics to Intelligent Signal Processing**.
+
+The manuscript is written in LaTeX using the Elsevier Book Template and provides a comprehensive treatment of digital signal processing, spanning classical signal processing theory, modern optimization methods, adaptive filtering, multidimensional signal processing, and data-driven intelligent signal processing.
+
+---
+
+## Book Structure
+
+The manuscript currently consists of **22 technical chapters**.
+
+### Chapters
+
+1. Packages, Libraries and Language
+2. Sampling and Quantization
+3. Basic Digital Modulation
+4. Digital PID Controllers
+5. Convolution and LTI Systems
+6. The Discrete Fourier Transform (DFT)
+7. The Fast Fourier Transform (FFT) and Windowing
+8. The Z-Transform and System Functions
+9. Finite Impulse Response (FIR) Filters
+10. Multirate DSP (Decimation and Interpolation)
+11. Advanced Multi-Rate and Filter Bank Theory
+12. Adaptive Filtering
+13. IQ Modulation and Software Defined Radio (SDR)
+14. Random Signals and Power Spectral Density (PSD)
+15. Stochastic Digital Signal Processing
+16. Fixed-Point DSP and Hardware Consideration
+17. The Phase-Locked Loop (PLL) Synchronization Engine
+18. Finite Word-Length Stability Analysis
+19. Two-Dimensional Spatial Frequency and Image Compression
+20. Advanced Multidimensional and Array Processing
+21. Sparsity and Optimization-Driven DSP
+22. Data-Driven and Intelligent Signal Processing
+
+Additional material includes:
+
+- Preface
+- Appendix
+- References
+- Glossary
+- About the Author(s)
+
+---
+
+## Repository Layout
+
+```
+book/
+│
+├── book.tex                 # Master compilation file
+├── main.tex                 # Main manuscript
+├── titlepage.tex
+├── preface.tex
+├── tableofcontents.tex
+├── chapter*.tex
+├── appendix*.tex
+├── references.bib
+├── references.tex
+├── contributors.tex
+├── aboutauthors.tex
+├── glossary.tex
+├── listoffigures.tex
+└── README.md
+```
+
+---
+
+## Compilation
+
+Compile using
+
+```
+pdflatex
+bibtex
+pdflatex
+pdflatex
+```
+
+or simply compile using Overleaf.
+
+---
+
+## Bibliography
+
+The bibliography is maintained in
+
+```
+references.bib
+```
+
+A manually formatted bibliography can also be generated using
+
+```
+references.tex
+```
+
+---
+
+## Intended Audience
+
+This book is intended for
+
+- Undergraduate students
+- Graduate students
+- Researchers
+- DSP Engineers
+- Machine Learning Researchers
+- Embedded Systems Engineers
+- SDR Developers
+
+---
+
+## Topics Covered
+
+- Digital Signal Processing
+- Fourier Analysis
+- Z-Transform
+- FIR Filters
+- Adaptive Filtering
+- Multirate Signal Processing
+- PLL Systems
+- IQ Modulation
+- Random Processes
+- Statistical Signal Processing
+- Image Processing
+- Sparse Signal Processing
+- Machine Learning for DSP
+
+---
+
+## Software Requirements
+
+- LaTeX
+- BibTeX
+- Elsevier Book Class
+- Overleaf (recommended)
+
+---
+
+## Citation
+
+If referencing this manuscript, please cite the published version once available.
+
+---
+
+## License
+
+Copyright © Author(s).
+
+All rights reserved unless otherwise specified.
+
+---
+
+## Acknowledgments
+
+The author acknowledges the open-source scientific computing community and the developers of the software libraries, algorithms, and tools referenced throughout this work.
